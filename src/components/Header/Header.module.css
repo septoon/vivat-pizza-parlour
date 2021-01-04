@@ -1,0 +1,11 @@
+.wrapper {
+  border-bottom: 1px solid gray;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  height: 80px;
+}
