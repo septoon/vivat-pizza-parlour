@@ -9,6 +9,7 @@ import { BrowserRouter } from 'react-router-dom'
 import {Provider} from 'react-redux'
 import TeaCardContainer from './components/TeaCard/TeaCardContainer';
 import Navbar from './components/Navbar/Navbar';
+import AboutUs from './components/AboutUs/AboutUs';
 
 class App extends React.Component {
 
@@ -17,10 +18,10 @@ class App extends React.Component {
       <div className='app-wrapper'>
         <Header />
         <Navbar />
-        {/* <CatalogueContainer /> */}
         <div className='app-wrapper-content'>
           <Route path='/catalog' component={ CatalogueContainer } />
           <Route path='/teaCard' component={ TeaCardContainer } />
+          <Route path='/aboutUs' component={ AboutUs } />
         </div>
       </div>
     )

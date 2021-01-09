@@ -9,3 +9,8 @@
 .logo {
   height: 80px;
 }
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}

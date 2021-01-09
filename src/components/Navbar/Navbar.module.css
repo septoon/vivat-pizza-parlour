@@ -1,5 +1,15 @@
 .nav {
   width: 100%;
   display: flex;
- justify-content: space-around; 
+  justify-content: space-around; 
+  padding: 10px;
+}
+
+.item a {
+  text-decoration: none;
+  transition: .3s;
+}
+
+.item a:hover {
+  border-bottom: 1px solid #000;
 }

@@ -5,7 +5,9 @@ import classes from './Catalogue.module.css'
 const Catalogue = props => {
   return (
     <div className={classes.catalog_wrapper} >
-      <CatalogItem catalogPage={props.catalogPage} />
+      <CatalogItem catalogPage={props.catalogPage}
+                   toggleIsActive={props.toggleIsActive}
+                   isActive={props.isActive} />
     </div>
   )
 }

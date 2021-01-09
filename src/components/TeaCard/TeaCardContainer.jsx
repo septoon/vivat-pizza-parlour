@@ -1,8 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import TeaCard from './TeaCard'
 import teaCardList from '../../common/json/teaCardList'
 import { addTeaCardList } from '../../redux/teaCard-reducer'
-import TeaCard from './TeaCard'
 
 class TeaCardContainer extends React.Component {
   componentDidMount() {
@@ -16,11 +16,9 @@ class TeaCardContainer extends React.Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  return {
-    teaCardPage: state.teaCardPage,
-    list: teaCardList
-  }
-}
+const mapStateToProps = (state) => ({
+  teaCardPage: state.teaCardPage,
+  list: teaCardList
+})
 
 export default connect(mapStateToProps, { addTeaCardList }) (TeaCardContainer)

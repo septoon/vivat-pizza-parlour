@@ -3,10 +3,9 @@ const catalogList = [
     title: 'Пицца с тунцом',
     image: 'http://pizza.vivatalushta.ru/images/pizza/punez.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/400 рублей',
-      middle: '40см/700 рублей',
-      large: '50см/900 рублей'
+      small: '400',
+      middle: '700',
+      large: '900'
     },
     composition: 'тунец, сыр пармезан, соус, оливки, помидоры'
   },
@@ -14,10 +13,9 @@ const catalogList = [
     title: 'Пицца "Маргарита"',
     image: 'http://pizza.vivatalushta.ru/images/pizza/margarita.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/340 рублей',
-      middle: '40см/420 рублей',
-      large: '50см/560 рублей'
+      small: '340',
+      middle: '420',
+      large: '560'
     },
     composition: 'сыр, соус, помидор, зелень'
   },
@@ -25,10 +23,9 @@ const catalogList = [
     title: 'Пицца Вегетарианская',
     image: 'http://pizza.vivatalushta.ru/images/pizza/vegani.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/340 рублей',
-      middle: '40см/480 рублей',
-      large: '50см/690 рублей'
+      small: '340',
+      middle: '480',
+      large: '690'
     },
     composition: 'сыр, соус, помидор, кукуруза, болгарский перец, грибы, брокколи, маслины'
   },
@@ -36,10 +33,9 @@ const catalogList = [
     title: 'Пицца 4 сыра',
     image: 'http://pizza.vivatalushta.ru/images/pizza/4sira.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/440 рублей',
-      middle: '40см/680 рублей',
-      large: '50см/800 рублей'
+      small: '440',
+      middle: '680',
+      large: '800'
     },
     composition: 'пармезан, моцарелла, гауда, эдам, соус'
   },
@@ -47,10 +43,9 @@ const catalogList = [
     title: 'Пицца "Грибная"',
     image: 'http://pizza.vivatalushta.ru/images/pizza/gribi.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/355 рублей',
-      middle: '40см/520 рублей',
-      large: '50см/680 рублей'
+      small: '355',
+      middle: '520',
+      large: '680'
     },
     composition: 'сыр, соус, помидор, шампиньоны, зелень, болгарский перец'
   },
@@ -58,10 +53,10 @@ const catalogList = [
     title: 'Пицца "Антонио"',
     image: 'http://pizza.vivatalushta.ru/images/pizza/margarita.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/365 рублей',
-      middle: '40см/520 рублей',
-      large: '50см/730 рублей'
+      
+      small: '365',
+      middle: '520',
+      large: '730'
     },
     composition: 'сыр, соус, салями, грибы, болгарский перец, кукуруза, зелень'
   },
@@ -69,10 +64,9 @@ const catalogList = [
     title: 'Пицца Классика',
     image: 'http://pizza.vivatalushta.ru/images/pizza/vegani.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/380 рублей',
-      middle: '40см/510 рублей',
-      large: '50см/650 рублей'
+      small: '380',
+      middle: '510',
+      large: '650'
     },
     composition: 'сыр, соус, салями, ветчина, грибы, помидор, сыр'
   },
@@ -80,10 +74,9 @@ const catalogList = [
     title: 'Пицца Пикассо',
     image: 'http://pizza.vivatalushta.ru/images/pizza/picaso.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/360 рублей',
-      middle: '40см/520 рублей',
-      large: '50см/665 рублей'
+      small: '360',
+      middle: '520',
+      large: '665'
     },
     composition: 'сыр, соус, салями, буженина, помидоры, кукуруза'
   },
@@ -91,10 +84,9 @@ const catalogList = [
     title: 'Пицца "Прошуто"',
     image: 'http://pizza.vivatalushta.ru/images/pizza/proshito.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/365 рублей',
-      middle: '40см/520 рублей',
-      large: '50см/730 рублей'
+      small: '365',
+      middle: '520',
+      large: '730'
     },
     composition: 'сыр, соус, помидор, ветчина, грибы'
   },
@@ -102,10 +94,9 @@ const catalogList = [
     title: 'Пицца "Курица с грибами"',
     image: 'http://pizza.vivatalushta.ru/images/pizza/kashagribi.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/380 рублей',
-      middle: '40см/580 рублей',
-      large: '50см/700 рублей'
+      small: '380',
+      middle: '580',
+      large: '700'
     },
     composition: 'сыр, соус, курица, грибы, зелень по желанию'
   },
@@ -113,10 +104,10 @@ const catalogList = [
     title: 'Пицца "Гавайская"',
     image: 'http://pizza.vivatalushta.ru/images/pizza/gavai.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/350 рублей',
-      middle: '40см/580 рублей',
-      large: '50см/690 рублей'
+      
+      small: '350',
+      middle: '580',
+      large: '690'
     },
     composition: 'сыр, соус, курица или ветчина, ананас'
   },
@@ -124,10 +115,9 @@ const catalogList = [
     title: 'Пицца "Морская"',
     image: 'http://pizza.vivatalushta.ru/images/pizza/morskay.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/470 рублей',
-      middle: '40см/750 рублей',
-      large: '50см/900 рублей'
+      small: '470',
+      middle: '750',
+      large: '900'
     },
     composition: 'мидии, осьминоги, креветки, кальмары, сыр, соус, зелень'
   },
@@ -135,10 +125,9 @@ const catalogList = [
     title: 'Пицца "Микс"',
     image: 'http://pizza.vivatalushta.ru/images/pizza/mix.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/490 рублей',
-      middle: '40см/680 рублей',
-      large: '50см/900 рублей'
+      small: '490',
+      middle: '680',
+      large: '900'
     },
     composition: 'сыр, соус, салями, ветчина, буженина, курица, грибы, сладкий перец'
   },
@@ -146,10 +135,9 @@ const catalogList = [
     title: 'Пицца "Салями"',
     image: 'http://pizza.vivatalushta.ru/images/pizza/salami.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/350 рублей',
-      middle: '40см/510 рублей',
-      large: '50см/650 рублей'
+      small: '350',
+      middle: '510',
+      large: '650'
     },
     composition: 'сыр, соус, салями, маслины'
   },
@@ -157,10 +145,10 @@ const catalogList = [
     title: 'Пицца "С сёмгой"',
     image: 'http://pizza.vivatalushta.ru/images/pizza/ssemgoi.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/460 рублей',
-      middle: '40см/740 рублей',
-      large: '50см/900 рублей'
+      
+      small: '460',
+      middle: '740',
+      large: '900'
     },
     composition: 'сыр, соус, оливки, сёмга, креветки'
   },
@@ -168,10 +156,9 @@ const catalogList = [
     title: 'Пицца "Пеперони"',
     image: 'http://pizza.vivatalushta.ru/images/pizza/peperoni.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/340 рублей',
-      middle: '40см/490 рублей',
-      large: '50см/650 рублей'
+      small: '340',
+      middle: '490',
+      large: '650'
     },
     composition: 'сыр, соус, перерони, болгарский перец'
   },
@@ -179,10 +166,9 @@ const catalogList = [
     title: 'Пицца "Vivat"',
     image: 'http://pizza.vivatalushta.ru/images/pizza/vivat.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/440 рублей',
-      middle: '40см/620 рублей',
-      large: '50см/800 рублей'
+      small: '440',
+      middle: '620',
+      large: '800'
     },
     composition: 'сыр, соус, свинина, буженина, пеперони, грибы, зелень'
   },
@@ -190,10 +176,9 @@ const catalogList = [
     title: 'Пицца "Пармезан"',
     image: 'http://pizza.vivatalushta.ru/images/pizza/parmezan.png',
     price: {
-      title: 'Диаметр/цена',
-      small: '32см/400 рублей',
-      middle: '40см/500 рублей',
-      large: '50см/800 рублей'
+      small: '400',
+      middle: '500',
+      large: '800'
     },
     composition: 'сыр, соус, свинина, помидор'
   }

@@ -1,0 +1,26 @@
+.teaCard_wrapper {
+  padding-top: 30px;
+}
+
+.card_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card_item {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border-bottom: 1px solid gray;
+  transition: .3s;
+}
+
+.card_item:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+.teaCard_title {
+  margin-bottom: 20px;
+}
