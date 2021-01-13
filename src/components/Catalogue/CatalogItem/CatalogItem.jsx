@@ -56,7 +56,7 @@ const CatalogItem = ({ catalogPage }) => {
             <span className={classes.price_count}> 
             <b ref={priceHolder} >{!c.isChange ? c.price.small : currentPrice}</b> 
             {/* <b ref={priceHolder} >{currentPrice}</b>  */}
-            руб. </span>                
+            руб. </span>
           </span>
           <button className={classes.btn_order}>Заказать</button>
         </div>
