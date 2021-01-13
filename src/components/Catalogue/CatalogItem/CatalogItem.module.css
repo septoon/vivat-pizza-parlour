@@ -155,24 +155,12 @@ button:focus {
 
 @media screen and (max-width: 500px) {
   .wrapper {
-    margin: auto;
-    margin-top: 1vh;
     width: 90%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
   }
   
   .catalog_item {
-    padding: 5px;
     width: 100%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    transition: .3s;
-    margin-top: 10px;
     border-bottom: 1px solid #ddd;
   }
   

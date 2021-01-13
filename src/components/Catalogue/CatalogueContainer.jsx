@@ -7,7 +7,6 @@ import catalogList from '../../common/json/catalog-list'
 class CatalogueContainer extends React.Component {
   componentDidMount() {
     this.props.addCatalogList(this.props.list)
-    // this.props.toggleIsActive(this.props.isActive)
   }
 
   
