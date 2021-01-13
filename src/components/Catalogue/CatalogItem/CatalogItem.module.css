@@ -48,6 +48,7 @@
 
 .name {
   font-size: 1.25em;
+  margin-bottom: 10px;
 }
 
 .description {
@@ -139,9 +140,9 @@
   background-color: #eee;
 }
 
-.size_item_active {
+/* .size_item_active {
   background-color: #eee;
-}
+} */
 
 .price_holder {
   padding-top: 15px;

@@ -7,7 +7,8 @@ const catalogList = [
       middle: '700',
       large: '900'
     },
-    composition: 'тунец, сыр пармезан, соус, оливки, помидоры'
+    composition: 'тунец, сыр пармезан, соус, оливки, помидоры',
+    isChange: false
   },
   {
     title: 'Пицца "Маргарита"',
@@ -17,7 +18,8 @@ const catalogList = [
       middle: '420',
       large: '560'
     },
-    composition: 'сыр, соус, помидор, зелень'
+    composition: 'сыр, соус, помидор, зелень',
+    isChange: false
   },
   {
     title: 'Пицца Вегетарианская',
@@ -27,7 +29,8 @@ const catalogList = [
       middle: '480',
       large: '690'
     },
-    composition: 'сыр, соус, помидор, кукуруза, болгарский перец, грибы, брокколи, маслины'
+    composition: 'сыр, соус, помидор, кукуруза, болгарский перец, грибы, брокколи, маслины',
+    isChange: false
   },
   {
     title: 'Пицца 4 сыра',
@@ -37,7 +40,8 @@ const catalogList = [
       middle: '680',
       large: '800'
     },
-    composition: 'пармезан, моцарелла, гауда, эдам, соус'
+    composition: 'пармезан, моцарелла, гауда, эдам, соус',
+    isChange: false
   },
   {
     title: 'Пицца "Грибная"',
@@ -47,7 +51,8 @@ const catalogList = [
       middle: '520',
       large: '680'
     },
-    composition: 'сыр, соус, помидор, шампиньоны, зелень, болгарский перец'
+    composition: 'сыр, соус, помидор, шампиньоны, зелень, болгарский перец',
+    isChange: false
   },
   {
     title: 'Пицца "Антонио"',
@@ -58,7 +63,8 @@ const catalogList = [
       middle: '520',
       large: '730'
     },
-    composition: 'сыр, соус, салями, грибы, болгарский перец, кукуруза, зелень'
+    composition: 'сыр, соус, салями, грибы, болгарский перец, кукуруза, зелень',
+    isChange: false
   },
   {
     title: 'Пицца Классика',
@@ -68,7 +74,8 @@ const catalogList = [
       middle: '510',
       large: '650'
     },
-    composition: 'сыр, соус, салями, ветчина, грибы, помидор, сыр'
+    composition: 'сыр, соус, салями, ветчина, грибы, помидор, сыр',
+    isChange: false
   },
   {
     title: 'Пицца Пикассо',
@@ -78,7 +85,8 @@ const catalogList = [
       middle: '520',
       large: '665'
     },
-    composition: 'сыр, соус, салями, буженина, помидоры, кукуруза'
+    composition: 'сыр, соус, салями, буженина, помидоры, кукуруза',
+    isChange: false
   },
   {
     title: 'Пицца "Прошуто"',
@@ -88,7 +96,8 @@ const catalogList = [
       middle: '520',
       large: '730'
     },
-    composition: 'сыр, соус, помидор, ветчина, грибы'
+    composition: 'сыр, соус, помидор, ветчина, грибы',
+    isChange: false
   },
   {
     title: 'Пицца "Курица с грибами"',
@@ -98,7 +107,8 @@ const catalogList = [
       middle: '580',
       large: '700'
     },
-    composition: 'сыр, соус, курица, грибы, зелень по желанию'
+    composition: 'сыр, соус, курица, грибы, зелень по желанию',
+    isChange: false
   },
   {
     title: 'Пицца "Гавайская"',
@@ -109,7 +119,8 @@ const catalogList = [
       middle: '580',
       large: '690'
     },
-    composition: 'сыр, соус, курица или ветчина, ананас'
+    composition: 'сыр, соус, курица или ветчина, ананас',
+    isChange: false
   },
   {
     title: 'Пицца "Морская"',
@@ -119,7 +130,8 @@ const catalogList = [
       middle: '750',
       large: '900'
     },
-    composition: 'мидии, осьминоги, креветки, кальмары, сыр, соус, зелень'
+    composition: 'мидии, осьминоги, креветки, кальмары, сыр, соус, зелень',
+    isChange: false
   },
   {
     title: 'Пицца "Микс"',
@@ -129,7 +141,8 @@ const catalogList = [
       middle: '680',
       large: '900'
     },
-    composition: 'сыр, соус, салями, ветчина, буженина, курица, грибы, сладкий перец'
+    composition: 'сыр, соус, салями, ветчина, буженина, курица, грибы, сладкий перец',
+    isChange: false
   },
   {
     title: 'Пицца "Салями"',
@@ -139,7 +152,8 @@ const catalogList = [
       middle: '510',
       large: '650'
     },
-    composition: 'сыр, соус, салями, маслины'
+    composition: 'сыр, соус, салями, маслины',
+    isChange: false
   },
   {
     title: 'Пицца "С сёмгой"',
@@ -150,7 +164,8 @@ const catalogList = [
       middle: '740',
       large: '900'
     },
-    composition: 'сыр, соус, оливки, сёмга, креветки'
+    composition: 'сыр, соус, оливки, сёмга, креветки',
+    isChange: false
   },
   {
     title: 'Пицца "Пеперони"',
@@ -160,7 +175,8 @@ const catalogList = [
       middle: '490',
       large: '650'
     },
-    composition: 'сыр, соус, перерони, болгарский перец'
+    composition: 'сыр, соус, перерони, болгарский перец',
+    isChange: false
   },
   {
     title: 'Пицца "Vivat"',
@@ -170,7 +186,8 @@ const catalogList = [
       middle: '620',
       large: '800'
     },
-    composition: 'сыр, соус, свинина, буженина, пеперони, грибы, зелень'
+    composition: 'сыр, соус, свинина, буженина, пеперони, грибы, зелень',
+    isChange: false
   },
   {
     title: 'Пицца "Пармезан"',
@@ -180,7 +197,8 @@ const catalogList = [
       middle: '500',
       large: '800'
     },
-    composition: 'сыр, соус, свинина, помидор'
+    composition: 'сыр, соус, свинина, помидор',
+    isChange: false
   }
 ]
 

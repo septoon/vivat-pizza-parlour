@@ -23,6 +23,21 @@ const TeaCard = ({ teaCardPage }) => {
       )}
         </div>
     </div>
+
+    // <div>
+      
+    // {teaCardPage.teaCardData.black
+    //   .map(c => <div className={classes.teaCard_wrapper}>
+    //     <h1 className={classes.teaCard_title} >{c.header}</h1>
+    //   <div className={classes.card_wrap} >
+    //     <div key={c.id} className={classes.card_item} >
+    //       <h3>{c.title}</h3>
+    //       <span>{c.description}</span>
+    //     </div>
+    //     </div>
+    // </div>
+    //   )}
+    // </div>
   )
 }
 
