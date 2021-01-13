@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/vivat-pizza-parlour/static/css/main.8f39c317.chunk.css",
-    "main.js": "/vivat-pizza-parlour/static/js/main.458c4ea4.chunk.js",
-    "main.js.map": "/vivat-pizza-parlour/static/js/main.458c4ea4.chunk.js.map",
+    "main.js": "/vivat-pizza-parlour/static/js/main.ab99fbe3.chunk.js",
+    "main.js.map": "/vivat-pizza-parlour/static/js/main.ab99fbe3.chunk.js.map",
     "runtime-main.js": "/vivat-pizza-parlour/static/js/runtime-main.89daa126.js",
     "runtime-main.js.map": "/vivat-pizza-parlour/static/js/runtime-main.89daa126.js.map",
-    "static/js/2.890fa007.chunk.js": "/vivat-pizza-parlour/static/js/2.890fa007.chunk.js",
-    "static/js/2.890fa007.chunk.js.map": "/vivat-pizza-parlour/static/js/2.890fa007.chunk.js.map",
+    "static/js/2.21ebf870.chunk.js": "/vivat-pizza-parlour/static/js/2.21ebf870.chunk.js",
+    "static/js/2.21ebf870.chunk.js.map": "/vivat-pizza-parlour/static/js/2.21ebf870.chunk.js.map",
     "static/js/3.54bcb353.chunk.js": "/vivat-pizza-parlour/static/js/3.54bcb353.chunk.js",
     "static/js/3.54bcb353.chunk.js.map": "/vivat-pizza-parlour/static/js/3.54bcb353.chunk.js.map",
     "index.html": "/vivat-pizza-parlour/index.html",
     "static/css/main.8f39c317.chunk.css.map": "/vivat-pizza-parlour/static/css/main.8f39c317.chunk.css.map",
-    "static/js/2.890fa007.chunk.js.LICENSE.txt": "/vivat-pizza-parlour/static/js/2.890fa007.chunk.js.LICENSE.txt"
+    "static/js/2.21ebf870.chunk.js.LICENSE.txt": "/vivat-pizza-parlour/static/js/2.21ebf870.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.89daa126.js",
-    "static/js/2.890fa007.chunk.js",
+    "static/js/2.21ebf870.chunk.js",
     "static/css/main.8f39c317.chunk.css",
-    "static/js/main.458c4ea4.chunk.js"
+    "static/js/main.ab99fbe3.chunk.js"
   ]
 }
