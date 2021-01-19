@@ -18,6 +18,7 @@ class App extends React.Component {
       <div className='app-wrapper'>
         <Header />
         <Navbar />
+        {/* <CatalogueContainer /> */}
         <div className='app-wrapper-content'>
           <Route path='/catalog' component={ CatalogueContainer } />
           <Route path='/teaCard' component={ TeaCardContainer } />
