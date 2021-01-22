@@ -20,11 +20,12 @@
 }
 
 .card_items:first-child .card_item {
-  border-bottom: 0;
+  display: none;
 
 }
 
 .card_item {
+  width: 100%;
   padding: 10px;
   margin-bottom: 30px;
   border-radius: 5px;
