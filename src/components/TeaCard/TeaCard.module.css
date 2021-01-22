@@ -13,7 +13,15 @@
   display: flex;
 }
 
-.item {
+.card_items:first-child {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card_items:first-child .card_item {
+  border-bottom: 0;
+
 }
 
 .card_item {
