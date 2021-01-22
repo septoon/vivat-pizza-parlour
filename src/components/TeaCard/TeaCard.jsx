@@ -9,10 +9,14 @@ const TeaCard = ({ teaCardPage }) => {
       {cardDataKeys.map(c => <div className={classes.card_wrap}>
         {
           cardData[c]
-          .map(el => <div className={classes.card_item}>
+          .map(el => <div className={classes.card_items} >
             <h1 className={classes.teaCard_title}>{el.header}</h1>
-            <h3>{el.title}</h3>
-            <span>{el.description}</span>
+            <div className={classes.card_item}>
+              <div className={classes.item} >
+                <h3>{el.title}</h3>
+                <span>{el.description}</span>
+              </div>
+            </div>
           </div>
           )
         }
