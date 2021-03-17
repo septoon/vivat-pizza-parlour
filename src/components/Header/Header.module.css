@@ -7,12 +7,17 @@
 }
 
 .logo {
+  margin: 15px 0 15px 0;
   height: 80px;
 }
 
 .contacts {
   display: flex;
   flex-direction: column;
+}
+
+.bask {
+  width: 35px;
 }
 
 @media screen and (max-width: 500px) {

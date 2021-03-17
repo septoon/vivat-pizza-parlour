@@ -1,15 +1,12 @@
 import React, { useState } from 'react'
 import classes from './CatalogItem.module.css'
+import Form from './Form/Form';
 
 const CatalogItem = ({ catalogPage }) => {
   const priceHolder = React.createRef()
 
   const [currentPrice, setCurrentPrice] = useState('');
-
-  // const setPrice = (isChange, price) => {
-  //   isChange = true
-  //   setCurrentPrice(price)
-  // }
+  const [order, setOrder] = useState({});
 
   return (
     <div className={classes.wrapper} >
@@ -35,21 +32,6 @@ const CatalogItem = ({ catalogPage }) => {
             setCurrentPrice(c.price.large)
           } } onBlur={ () => { c.isChange = false}} className={classes.size_item}>Ø 50 см</button>
 
-
-          {/* <button value={index} 
-            onClick={ () => setPrice(c.isChange, c.price.small) }
-            onBlur={ () => c.isChange = false }
-            className={classes.size_item }>Ø 30 см</button>
-           
-          <button value={index} 
-            onClick={ () => setPrice(c.isChange, c.price.middle) }
-            onBlur={ () => c.isChange = false }
-            className={classes.size_item}>Ø 40 см</button>
-          
-          <button value={index} 
-            onClick={ () => setPrice(c.isChange, c.price.large) }
-            onBlur={ () => c.isChange = false }
-            className={classes.size_item}>Ø 50 см</button> */}
         </div>
         <div className={classes.price_holder}>
           <span className={`${classes.price} ${classes.pr_inp}`}>
@@ -58,7 +40,7 @@ const CatalogItem = ({ catalogPage }) => {
             {/* <b ref={priceHolder} >{currentPrice}</b>  */}
             руб. </span>
           </span>
-          <button className={classes.btn_order}>Заказать</button>
+          <button className={classes.btn_order} onClick={() => {}}>Заказать</button>
         </div>
 
       </div>

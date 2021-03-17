@@ -1,15 +1,13 @@
 import React from 'react'
 import './App.css';
+import { Route } from 'react-router-dom'
+
 import CatalogueContainer from './components/Catalogue/CatalogueContainer';
 import Header from './components/Header/Header'
-import { store } from './redux/redux-store'
-
-import { Route } from 'react-router-dom'
-import { BrowserRouter } from 'react-router-dom'
-import {Provider} from 'react-redux'
 import TeaCardContainer from './components/TeaCard/TeaCardContainer';
 import Navbar from './components/Navbar/Navbar';
 import AboutUs from './components/AboutUs/AboutUs';
+import Basket from './components/Basket/Basket';
 
 class App extends React.Component {
 
@@ -23,20 +21,11 @@ class App extends React.Component {
           <Route path='/catalog' component={ CatalogueContainer } />
           <Route path='/teaCard' component={ TeaCardContainer } />
           <Route path='/aboutUs' component={ AboutUs } />
+          <Route path='/basket' component={ Basket } />
         </div>
       </div>
     )
   }
 }
 
-const VivatApp = (props) => {
-  return (
-    <BrowserRouter>
-      <Provider store={store} >
-        <App />
-      </Provider> 
-    </BrowserRouter>
-  )
-}
-
-export default VivatApp;
+export default App;
